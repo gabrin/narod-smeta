@@ -1,4 +1,30 @@
 <div class="container" ng-controller="HomeCtrl">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="btn-compose pull-left">
+                <a type="button" class="btn btn-danger navbar-btn" href="#compose" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-pencil"></span> Add</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#inbox" role="tab" data-toggle="tab">
+                        Inbox <span class="label label-success">10</span>
+                    </a>
+                </li>
+                <li><a href="#sent-mail" role="tab" data-toggle="tab">Sent mail</a>
+
+                </li>
+                <li><a href="#draft" role="tab" data-toggle="tab">Draft</a>
+
+                </li>
+                <li><a href="#trash" role="tab" data-toggle="tab">Trash</a>
+
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a><span class="glyphicon glyphicon-user"></span> <span id="email">...</span></a></li>
+                <li><a href="#" ng-click="logout()"><span class="glyphicon glyphicon-logout"></span>Logout</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     <h2 class="text-center">
         Welcome
         <span id="email">...</span>

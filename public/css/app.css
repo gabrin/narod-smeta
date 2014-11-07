@@ -1,0 +1,20 @@
+.header {
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+border-bottom: 1px solid #c8c8c8;
+overflow: hidden;
+margin-bottom: 20px;
+height: 35px;
+background-color: #F5F5F5;
+	}
+.navbar-collapse {
+background-color: #fafafa;
+border-bottom: 1px solid transparent;
+border-top: 1px solid #e5e5e5;
+height: 53px;
+padding-top: 1px;
+position: relative;
+z-index: 5;
+}

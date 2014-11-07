@@ -1,5 +1,8 @@
 <div class="header" ng-controller="Toolbar">
-    <div class="btn-group pull-right">
+    <div class="btn-group pull-right" style="padding: 5px;">
+        <button ng-click="move()" type="button" class="btn btn-default btn-xs"   style="-webkit-app-region: drag">
+            <span class="glyphicon glyphicon-move"></span>
+        </button>
         <button ng-click="minimize()" type="button" class="btn btn-default btn-xs">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
@@ -10,5 +13,4 @@
             <span class="glyphicon glyphicon-remove"></span>
         </button>
     </div>
-    <h1>ng-auth</h1>
 </div>

@@ -22,8 +22,8 @@
         "position": "center",
         "fullscreen": false,
         "resizable": true,
-        "width": 1000,
-        "height": 600,
+        "width": 1200,
+        "height": 800,
         "min_width": 600,
         "min_height": 400
     },
